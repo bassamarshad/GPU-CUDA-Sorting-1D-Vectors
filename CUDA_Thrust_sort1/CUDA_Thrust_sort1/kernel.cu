@@ -94,7 +94,7 @@ void sortCPU(int size)
 
 	duration<double> time_span = duration_cast<duration<double>>(t2 - t1);
 
-	std::cout << "\n Sorted " << size << " randomly generated element array in " << time_span.count() << " seconds using ";
+	std::cout << "\n Sorted " << size << " randomly generated element array in " << time_span.count() << " seconds using CPU ";
 	cout << "\n";
 
 
@@ -144,7 +144,7 @@ void sortCPUFloat(int size)
 
 	duration<double> time_span = duration_cast<duration<double>>(t2 - t1);
 
-	std::cout << "\n Sorted " << size << " randomly generated element array in " << time_span.count() << " seconds using ";
+	std::cout << "\n Sorted " << size << " randomly generated element array in " << time_span.count() << " seconds using CPU ";
 	cout << "\n";
 
 
